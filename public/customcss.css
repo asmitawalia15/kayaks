@@ -43,6 +43,75 @@ ul.main_list.img-list {
     margin: 1%;
     height: 500px;
 }
+h4.main_heading {
+    color: #042b64;
+    font-size: 25px;
+    font-weight: 800;
+}
+p.main_description {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+button.deleteBtn {
+    background: red;
+    padding: 1% 4%;
+    color: white;
+    font-weight: 900;
+    border: none;
+    margin: 1%;
+    float: right;
+}
+.mainheading {
+    background: #042b64;
+    color: white;
+    padding: 3% 1%;
+    width: 100%;
+    margin: -2% 0% 1% 0%;
+    float: left;
+}
+.list_with_thumbnails {
+    width: 100%;
+    float: left;
+}
+a.updateBtn {
+    background: #042b64;
+    padding: 1% 4%;
+    color: white!important;
+    font-weight: 900;
+    border: none;
+    float: left;
+    margin: 1%;
+}
+ul.pagination {
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+    background: #042b64;
+    padding: 1%;
+    color: white;
+    border: 2px solid #042b64;
+}
+.pagination li {
+    border: 2px solid white;
+}
+.pagination li a {
+    padding: 4px 10px;
+    font-size: 18px;
+}
+.editablefields {
+    width: 100%;
+    float: left;
+    text-align: initial;
+}
+/* .modal.fade.show {
+    display: none;
+    width: 98%;
+    float: left;
+    position: absolute;
+    background: #e9e9e9;
+    border: 2px solid #838383;
+} */
 @media all and (min-width: 640px) {
     .list_with_thumbnails .list {
         padding: 8px;
@@ -58,13 +127,18 @@ ul.main_list.img-list {
     display: block;
     width: 350px;
     height: 300px;
+    
+    overflow: hidden;
 }
     .list_with_thumbnails .list .item .item-image .item-image {
         width: 80%;
    }
    .list_with_thumbnails .list .item .item-text {
     display: block;
-    border: 2px solid lightgrey;
+    border: 2px solid #042b64;
+    background: #042b64;
+    color: white;
+    height: 90px;
 }
 }
 @media all and (min-width: 960px) {
@@ -76,8 +150,8 @@ ul.main_list.img-list {
         width: 30%;
         float: left;
         height: 400px;
-        background: #efefef;
-        border: 1px solid #dfdfdf;
+        background: #ffffff;
+        border: 2px solid #042b64;
         margin: 1%;
     }
 }
